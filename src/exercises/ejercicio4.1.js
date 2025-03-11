@@ -24,7 +24,7 @@ export function main4_1() {
     let numbers = getRandomArray(10);
     let arrayMinMax = getMinMax(numbers);
 
-    console.log(numbers);
+    console.log(`Array de numeros: ${numbers}`);
     console.log(`Min: ${arrayMinMax[0]}`);
     console.log(`Max: ${arrayMinMax[1]}`);
 }

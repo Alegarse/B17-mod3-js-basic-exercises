@@ -6,6 +6,7 @@ const {edad} = Persona;
 const {profesion} = Persona
 
 export function main5_2() {
-    console.log(name);
-    console.log(edad, profesion);
+    console.log('Persona:');
+    console.log(`Nombre: ${name}`);
+    console.log(`Edad: ${edad}, Profesión: ${profesion}`);
 }

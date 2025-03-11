@@ -12,13 +12,12 @@ function fibonacci(num) {
     return (fibonacci(num-2)+fibonacci(num-1));
 }
 
-let arrayFibonacci = [];
-let num = 15;
-for(let i = 0; i<= num; i++) {
-    arrayFibonacci.push(fibonacci(i));
-}
-
-
 export function main3_b() {
+    const num = parseInt(prompt("Enter a num to get the Fibonaccy serie: ", 13));
+    let arrayFibonacci = [];
+    for(let i = 0; i<= num; i++) {
+        arrayFibonacci.push(fibonacci(i));
+    }
+    console.log(`Seri de Fibonacci de ${num}`)
     console.log(arrayFibonacci)
 }

@@ -16,7 +16,7 @@ function calculadora(num1, num2, operator) {
         default:
             result = 'Invalid operator'
     }
-    console.log(result);
+    console.log(`El resultado de la operación es: ${result}`);
 }
 
 export function main3_1() {

@@ -22,5 +22,6 @@ let alphabetArray = alphabet.split('');
 positionArray = charPosition(stringArray, alphabetArray, positionArray);
 
 export function main4_2() {
-    console.log(positionArray);
+    console.log(`String inicial: ${string}`)
+    console.log(`Posiciones de cada letra en el alfabeto: ${positionArray}`);
 }

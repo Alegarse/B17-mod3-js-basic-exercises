@@ -4,5 +4,6 @@ function factorial(num) {
 }
 
 export function main3_2() {
-    console.log(factorial(8));
+    const num = parseInt(prompt("Enter a num to get the factorial", 4));
+    console.log(`El factorial del número ${num} es: ${factorial(num)}`);
 }

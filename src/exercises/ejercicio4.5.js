@@ -1,8 +1,8 @@
 import {getRandomArray} from './ejercicio4.1.js'
 
-let arrayNums = getRandomArray(8);
-
 export function main4_5() {
-    console.log(arrayNums);
-    console.log(arrayNums.find((element) => element > 3));
+    const number = parseInt(prompt("Enter a num to get an Array", 8));
+    let arrayNums = getRandomArray(number);
+    console.log(`Array inicial: ${arrayNums}`);
+    console.log(`Primer número mayor que 3: ${arrayNums.find((element) => element > 3)}`);
 }

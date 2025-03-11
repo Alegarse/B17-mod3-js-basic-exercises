@@ -8,7 +8,7 @@ function contarVocales(string) {
     console.log(`The string "${string}" contains ${acc} vocals`);
 }
 
-
 export function main3_3() {
-    contarVocales('Ambiciosa combinacion de colores');
+    const string = prompt("Enter a string for vocals's count:", 'Ambiciosa combinacion de colores');
+    contarVocales(string);
 }
