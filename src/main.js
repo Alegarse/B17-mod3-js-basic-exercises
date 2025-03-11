@@ -1,6 +1,6 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from './vite.svg'
 import { ejercicios } from './exercises/_exercises.js'
 
 document.querySelector('#app').innerHTML = `

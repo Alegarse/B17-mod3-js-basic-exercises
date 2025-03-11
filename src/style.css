@@ -108,6 +108,7 @@ button:focus-visible {
   }
 }
 
+/*
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -120,3 +121,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+  */
