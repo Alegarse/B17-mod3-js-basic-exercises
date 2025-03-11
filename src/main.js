@@ -1,7 +1,7 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from './vite.svg'
-import agsLogo from './ags.webp'
+import agsLogo from './logo_ags.svg'
 import { ejercicios } from './exercises/_exercises.js'
 
 document.querySelector('#app').innerHTML = `
