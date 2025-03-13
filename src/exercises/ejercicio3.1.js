@@ -11,10 +11,11 @@ function calculadora(num1, num2, operator) {
             result = num1 * num2;
             break;
         case '/':
-            result = num2 === 0 ? 'Zero division error': num1 / num2;
+            if (num2 === 0) throw new Error('Zero division error');
+            result = num1 / num2;
             break;
         default:
-            result = 'Invalid operator'
+            throw new Error('Invalid operator');
     }
     console.log(`El resultado de la operación es: ${result}`);
 }
