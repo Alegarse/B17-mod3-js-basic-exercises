@@ -1,14 +1,14 @@
-export const Estudiantes = [
+export const students = [
     {
-        nombre: 'Laureano',
-        calificación: 7.6
+        studentName: 'Laureano',
+        grade: 7.6
     },
     {
-        nombre: 'María José',
-        calificación: 8.3
+        studentName: 'María José',
+        grade: 8.3
     },
     {
-        nombre: 'Alberto',
-        calificación: 6.8
+        studentName: 'Alberto',
+        grade: 6.8
     }
 ]
