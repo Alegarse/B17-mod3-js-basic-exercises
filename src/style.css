@@ -35,6 +35,10 @@ h1 {
   line-height: 1.1;
 }
 
+p {
+  max-width: 740px;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
