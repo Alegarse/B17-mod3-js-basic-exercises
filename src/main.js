@@ -9,7 +9,7 @@ document.querySelector('#app').innerHTML = `
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
     </a>
     <a href="https://github.com/Alegarse" target="_blank">
-      <img src="https://raw.githubusercontent.com/Alegarse/Dev_Utils/9574e643ce173b9a5c06c714c4c5ef7e532bcf92/logo_ags.svg" class="logo" alt="AGS logo" />
+      <img src="https://www.arenalsoft.es/logo_ags.svg" class="logo" alt="AGS logo" />
     </a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
