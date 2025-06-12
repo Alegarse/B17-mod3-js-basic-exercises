@@ -5,6 +5,5 @@ export function main4_4() {
     const number = parseInt(prompt("Enter a num to get an Array", 8));
     let nums = getRandomArray(number);
     let newNums = nums.map(num => num * 2);
-    resultMessage(`Array inicial: ${nums}`);
-    resultMessage(`Array inicial * 2: ${newNums}`);
+    resultMessage(`Array inicial: ${nums}\nArray inicial * 2: ${newNums}`);
 }

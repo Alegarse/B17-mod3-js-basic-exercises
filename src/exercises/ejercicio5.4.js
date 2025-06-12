@@ -4,6 +4,5 @@ import {Persona} from './persona.js'
 Persona['ciudad'] = 'Benalmádena';
 
 export function main5_4() {
-    resultMessage('Objeto Persona:')
-    resultMessage(Persona);
+    resultMessage(`Objeto Persona:\n${JSON.stringify(Persona)}`);
 }

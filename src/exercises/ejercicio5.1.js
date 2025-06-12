@@ -3,6 +3,5 @@ import {Persona} from './persona.js'
 
 
 export function main5_1() {
-    resultMessage('Objeto Persona:')
-    resultMessage(Persona)
+    resultMessage(`Objeto Persona:\n${JSON.stringify(Persona)}`)
 }

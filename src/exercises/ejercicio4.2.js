@@ -23,6 +23,5 @@ let alphabetArray = alphabet.split('');
 positionArray = charPosition(stringArray, alphabetArray, positionArray);
 
 export function main4_2() {
-    resultMessage(`String inicial: ${string}`)
-    resultMessage(`Posiciones de cada letra en el alfabeto: ${positionArray}`);
+    resultMessage(`String inicial: ${string}\nPosiciones de cada letra en el alfabeto: ${positionArray}`);
 }

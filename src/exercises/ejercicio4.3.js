@@ -8,7 +8,6 @@ function isEven(number) {
 export function main4_3() {
     const number = parseInt(prompt("Enter a num to get an Array", 30));
     let numbers = getRandomArray(number);
-    resultMessage(`Array generado: ${numbers}`);
     const evenNumbers = numbers.filter(isEven);
-    resultMessage(`Elementos pares del Array generado: ${evenNumbers}`);
+    resultMessage(`Array generado: ${numbers}\nElementos pares del Array generado: ${evenNumbers}`);
 }

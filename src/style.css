@@ -134,6 +134,12 @@ button:focus-visible {
   z-index: 1000;
 }
 
+.message-text {
+  display: flex;
+  flex-direction: column;
+  white-space: pre-line;
+}
+
 .time-showed {
   color: rgb(223, 71, 71);
   font-size: 14px;

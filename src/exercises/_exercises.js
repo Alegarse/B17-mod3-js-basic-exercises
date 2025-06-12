@@ -59,7 +59,8 @@ export const ejercicios = {
 export const resultMessage = (message) => {
   const messageContainer = document.querySelector(".result-container");
 
-  const messageText = document.createElement("p")
+  const messageText = document.createElement("div")
+  messageText.classList = "message-text"
   messageText.textContent = message;
 
   const timeShowed = document.createElement("p")

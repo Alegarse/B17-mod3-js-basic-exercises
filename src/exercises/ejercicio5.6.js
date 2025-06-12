@@ -2,7 +2,9 @@ import { resultMessage } from "./_exercises.js";
 import { students } from "./estudiantes.js";
 
 export function main5_6() {
+    let result = "";
     students.forEach(student => {
-        resultMessage(`Name: ${student.studentName} | Grade: ${student.grade}`);
+        result += `Name: ${student.studentName} | Grade: ${student.grade}\n`;
     })
+    resultMessage(result)
 }

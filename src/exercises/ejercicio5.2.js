@@ -7,7 +7,5 @@ const {edad} = Persona;
 const {profesion} = Persona
 
 export function main5_2() {
-    resultMessage('Persona:');
-    resultMessage(`Nombre: ${name}`);
-    resultMessage(`Edad: ${edad}, Profesión: ${profesion}`);
+    resultMessage(`Persona:\nNombre: ${name}\nEdad: ${edad}\nProfesión: ${profesion}`);
 }
