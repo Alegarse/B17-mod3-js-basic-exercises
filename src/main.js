@@ -15,7 +15,7 @@ document.querySelector('#app').innerHTML = `
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>JavaScript Basic Exercises</h1>
-    <p>Debes habilitar la consola de inspección para visualizar los resultados de los ejercicios cuando hagas click en cada botón correspondiente</p>
+    <p>Los resultados de los ejercicios se visualizarán en una ventana emergente que se cerrará automaticamente</p>
     <div class="exercises-grid">
       <div class="grid-tema">
         <h3>Tema 1</h3>
@@ -63,6 +63,7 @@ document.querySelector('#app').innerHTML = `
     <div class="card">
       <button id="repo-button" type="button"><a href="https://github.com/Alegarse/B17-mod3-js-basic-exercises" target="_blank" title="Open link to repository">Repositorio</a></button>
     </div>
+    <div class="result-container"></div>
   </div>
 `
 

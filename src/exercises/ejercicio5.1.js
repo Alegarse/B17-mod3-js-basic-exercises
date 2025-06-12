@@ -1,7 +1,8 @@
+import { resultMessage } from './_exercises.js'
 import {Persona} from './persona.js'
 
 
 export function main5_1() {
-    console.log('Objeto Persona:')
-    console.log(Persona)
+    resultMessage('Objeto Persona:')
+    resultMessage(Persona)
 }

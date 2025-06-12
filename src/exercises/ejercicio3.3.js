@@ -1,3 +1,5 @@
+import { resultMessage } from "./_exercises";
+
 function contarVocales(string) {
     const vowels = "aeiouAEIOU";
     let arrayString = string.split('');
@@ -5,7 +7,7 @@ function contarVocales(string) {
     arrayString.forEach(char => {
         if(vowels.includes(char)) acc++;
     });
-    console.log(`The string "${string}" contains ${acc} vowels`);
+    resultMessage(`The string "${string}" contains ${acc} vowels`);
 }
 
 export function main3_3() {

@@ -1,3 +1,4 @@
+import { resultMessage } from './_exercises.js';
 import {getRandomArray} from './ejercicio4.1.js'
 
 function isEven(number) {
@@ -7,7 +8,7 @@ function isEven(number) {
 export function main4_3() {
     const number = parseInt(prompt("Enter a num to get an Array", 30));
     let numbers = getRandomArray(number);
-    console.log(`Array generado: ${numbers}`);
+    resultMessage(`Array generado: ${numbers}`);
     const evenNumbers = numbers.filter(isEven);
-    console.log(`Elementos pares del Array generado: ${evenNumbers}`);
+    resultMessage(`Elementos pares del Array generado: ${evenNumbers}`);
 }

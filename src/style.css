@@ -44,6 +44,8 @@ p {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  position: relative;
+  display: flex;
 }
 
 .logo {
@@ -112,6 +114,32 @@ button:focus-visible {
   }
 }
 
+.result-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  font-size: 18px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #242424ee;
+  border-radius: 15px;
+  padding: 50px;
+  border: 2px dotted #484DB4;
+  z-index: 1000;
+}
+
+.time-showed {
+  color: rgb(223, 71, 71);
+  font-size: 14px;
+  font-style: italic;
+}
+
 /*
 @media (prefers-color-scheme: light) {
   :root {
@@ -125,4 +153,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-  */
+*/

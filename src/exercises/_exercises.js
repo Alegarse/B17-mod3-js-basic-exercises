@@ -26,10 +26,64 @@ import { main5_4 } from "./ejercicio5.4.js";
 import { main5_5 } from "./ejercicio5.5.js";
 import { main5_6 } from "./ejercicio5.6.js";
 
-export const ejercicios  = {
-    main1_1, main1_2, main1_3, main1_4, main1_5,
-    main2_1, main2_2, main2_3, main2_4, main2_5,
-    main3_1, main3_2, main3_3, main3_a, main3_b,
-    main4_1, main4_2, main4_3, main4_4, main4_5, main4_6,
-    main5_1, main5_2, main5_3, main5_4, main5_5, main5_6
-}
+export const ejercicios = {
+  main1_1,
+  main1_2,
+  main1_3,
+  main1_4,
+  main1_5,
+  main2_1,
+  main2_2,
+  main2_3,
+  main2_4,
+  main2_5,
+  main3_1,
+  main3_2,
+  main3_3,
+  main3_a,
+  main3_b,
+  main4_1,
+  main4_2,
+  main4_3,
+  main4_4,
+  main4_5,
+  main4_6,
+  main5_1,
+  main5_2,
+  main5_3,
+  main5_4,
+  main5_5,
+  main5_6,
+};
+
+export const resultMessage = (message) => {
+  const messageContainer = document.querySelector(".result-container");
+
+  const messageText = document.createElement("p")
+  messageText.textContent = message;
+
+  const timeShowed = document.createElement("p")
+  timeShowed.classList = "time-showed"
+
+  messageContainer.style.visibility = "visible";
+
+  let tiempo = 5;
+  timeShowed.textContent = "Este mensaje se cerrará en " + tiempo + " segundos";
+
+  const intervalo = setInterval(() => {
+    tiempo--;
+
+    if (tiempo >= 0) {
+      timeShowed.textContent = "Este mensaje se cerrará en " + tiempo + " segundos";
+    }
+
+    if (tiempo === 0) {
+      clearInterval(intervalo);
+      messageContainer.style.visibility = "hidden";
+      messageContainer.innerHTML = ""
+    }
+  }, 1000);
+
+  messageContainer.appendChild(messageText);
+  messageContainer.appendChild(timeShowed);
+};

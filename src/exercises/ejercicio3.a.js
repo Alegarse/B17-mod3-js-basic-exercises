@@ -1,3 +1,5 @@
+import { resultMessage } from "./_exercises";
+
 export function phraseLowerWithOutSpacesAndAcents(text) {
     /**
      * ================================================================================================================
@@ -62,9 +64,9 @@ function reverseString(string) {
 
 function checkPalindrom(string1, string2) {
     if (string1 === string2) {
-        console.log(`"${phrase}" is palindrome`)
+        resultMessage(`"${phrase}" is palindrome`)
     } else {
-        console.log(`"${phrase}" isn't palindrome`)
+        resultMessage(`"${phrase}" isn't palindrome`)
     }
     return
 }

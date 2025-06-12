@@ -1,3 +1,4 @@
+import { resultMessage } from './_exercises.js';
 import {phraseLowerWithOutSpacesAndAcents} from './ejercicio3.a.js'
 
 const alphabet = 'abcdefghijklmnopqrstuvwxyz';
@@ -22,6 +23,6 @@ let alphabetArray = alphabet.split('');
 positionArray = charPosition(stringArray, alphabetArray, positionArray);
 
 export function main4_2() {
-    console.log(`String inicial: ${string}`)
-    console.log(`Posiciones de cada letra en el alfabeto: ${positionArray}`);
+    resultMessage(`String inicial: ${string}`)
+    resultMessage(`Posiciones de cada letra en el alfabeto: ${positionArray}`);
 }

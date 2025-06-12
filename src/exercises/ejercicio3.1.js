@@ -1,3 +1,5 @@
+import { resultMessage } from "./_exercises";
+
 function calculadora(num1, num2, operator) {
     let result;
     switch (operator) {
@@ -17,7 +19,7 @@ function calculadora(num1, num2, operator) {
         default:
             throw new Error('Invalid operator');
     }
-    console.log(`El resultado de la operación es: ${result}`);
+    resultMessage(`El resultado de la operación es: ${result}`);
 }
 
 export function main3_1() {

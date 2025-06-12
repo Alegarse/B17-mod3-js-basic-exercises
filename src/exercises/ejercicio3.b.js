@@ -1,3 +1,5 @@
+import { resultMessage } from "./_exercises";
+
 /**
  * 
  * fórmula
@@ -18,6 +20,5 @@ export function main3_b() {
     for(let i = 0; i<= num; i++) {
         arrayFibonacci.push(fibonacci(i));
     }
-    console.log(`Seri de Fibonacci de ${num}`)
-    console.log(arrayFibonacci)
+    resultMessage(`Serie de Fibonacci de ${num}\n${arrayFibonacci}`)
 }
